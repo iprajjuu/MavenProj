@@ -15,11 +15,11 @@ public class MyCalculatorTest {
 	}
 	@Test
 	public void test3() {
-		assertEquals(5, new MyCalculator().getSum(10,5));
+		assertEquals(5, new MyCalculator().getDiff(10,5));
 	}
 	@Test
 	public void test4() {
-		assertEquals(0, new MyCalculator().getSum(5,5));
+		assertEquals(0, new MyCalculator().getDiff(5,5));
 	}
 
 }
